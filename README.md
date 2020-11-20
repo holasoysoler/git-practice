@@ -11,6 +11,7 @@
 - git stash: Stash (reserva) changes from working directory
 - git stash list: List stashes
 - git stash pop: Apply stashed changes to working directory
+
 ## Commit messages
 
 Default editor is vim (this can be changed)
