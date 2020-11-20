@@ -20,3 +20,8 @@ Or use 'git commit -m "<message>"'
 - Don't end with a '.'
 
 For more advice, see: https://chris.beams.io/posts/git-commit/
+
+
+## Git tutorial
+
+For more training regarding Git usage, see: https://learngitbranching.js.org/
