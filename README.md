@@ -6,7 +6,15 @@
 - git add: Add changes from working firectory to stagin area
 - git commit: Commit changes from stagin area to current branch
 - git config: Set or get configuration
+- git checkout -b: Create branch, then check it out
 
+## What's a branch?
+
+A branch is a ref(erence) to a commit. When HEAD points to a branch, we say we're "on" that branch. When we make a commit while we're on a branch, the branch is updated to ref(er) to the new commit.
+
+## What's HEAD?
+
+HEAD is a ref(erence) to the "current" branch (or sometimes a commit... more on that later). Git commands like `status`. `log`. and `branch` use HEAD. `git checkout` updates HEAD to ref(er) to a different branch.
 ## Commit messages
 
 Default editor is vim (this can be changed)
