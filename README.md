@@ -6,7 +6,7 @@
 - git add: Add changes from working firectory to stagin area
 - git commit: Commit changes from stagin area to current branch
 - git config: Set or get configuration
-
+- git checkout: Check out branch (update HEAD and apply changes to working directory)
 ## Commit messages
 
 Default editor is vim (this can be changed)
