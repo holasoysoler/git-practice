@@ -6,6 +6,7 @@
 - git add: Add changes from working firectory to stagin area
 - git commit: Commit changes from stagin area to current branch
 - git config: Set or get configuration
+- git checkout: check out a branch (update HEAD)
 - git checkout -b: Create branch, then check it out
 
 ## What's a branch?
