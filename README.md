@@ -11,7 +11,7 @@
 
 Default editor is vim (this can be changed)
     - 'i' to enter *instert* mode
-    - Type tommit message
+    - Type commit message
     - 'Esc' -> ':wq' -> 'Enter' to write message and quit
 Or use 'git commit -m "<message>"'
 
