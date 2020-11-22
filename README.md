@@ -1,4 +1,4 @@
-Practice: Repository to start learning Git
+Repository to start learning Git
 
 ## Commands used
 
