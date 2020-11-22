@@ -34,6 +34,10 @@ For more advice, see: https://chris.beams.io/posts/git-commit/
 
 For more training regarding Git usage, see: https://learngitbranching.js.org/
 
+## Merging
+
+Merging means to bring changes from one branch into another
+
 ## What's a remote?
 
 A remote repo is one hosted somwwhere other than our local machine. We can add remotes with `git remote add` and set up *tracking branches* to track differences between our local and remote repos.
