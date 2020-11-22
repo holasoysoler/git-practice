@@ -6,11 +6,10 @@ Practice: Practice repository to start learning Git
 - git add: Add changes from working firectory to stagin area
 - git commit: Commit changes from stagin area to current branch
 - git config: Set or get configuration
-
 - git log: Show a history (aka "log") or project commits
 - git checkout: Check out branch (update HEAD and apply changes to working directory)
 - git remote add <remote> <url>: add a new <remote> at <url>
-- git remote -v: List remote repos
+- git remote -v: List remote repositories
 - git push -u <remote> <branch>: Push <branch> to <renmote>, and set remote upstream for <branch>
 - git branch -c: create branch
 - git merge: Merge changes from different branches
