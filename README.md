@@ -5,11 +5,15 @@ Practice: Repository to start learning Git
 - git init: Create a new git repository
 - git status: Compare working directory, staging area and current branch
 - git add: Add changes from working firectory to stagin area
+- git commit: Commit changes from staging area to current branch
 - git commit: Commit changes from stagin area to current branch
 - git config: Set or get configuration
 - git log: Show a history (aka "log") or project commits
 - git checkout: Check out branch (update HEAD and apply changes to working directory)
 - git checkout -b: Create branch, then check it out
+- git stash: Stash (reserva) changes from working directory
+- git stash list: List stashes
+- git stash pop: Apply stashed changes to working directory
 - git remote add <remote> <url>: add a new <remote> at <url>
 - git remote -v: List remote repositories
 - git push -u <remote> <branch>: Push <branch> to <renmote>, and set remote upstream for <branch>
@@ -19,10 +23,10 @@ Practice: Repository to start learning Git
 - git fetch: Fetch changes from remote repo
 - git pull: Fetch, and the merge
  
- ## Commit messages
+## Commit messages
 
- Default editor is vim (this can be changed)
-    - `i` to enter *instert* mode
+Default editor is vim (this can be changed)
+    - 'i' to enter *insert* mode
     - Type commit message
     - `Esc` -> `:wq` -> 'Enter' to write message and quit
 Or use `git commit -m "<message>"`
