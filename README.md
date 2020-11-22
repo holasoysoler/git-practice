@@ -1,4 +1,5 @@
 Practice: Repository to start learning Git
+
 ## Commands used
 
 - git init: Create a new git repository
@@ -14,6 +15,7 @@ Practice: Repository to start learning Git
 - git push -u <remote> <branch>: Push <branch> to <renmote>, and set remote upstream for <branch>
 - git branch -c: create branch
 - git merge: Merge changes from different branches
+- git merge --no-commit --no-ff <branch>: If there's a conflict, it'll automatically let you fix it. If not, it'll merge.
 - git fetch: Fetch changes from remote repo
 - git pull: Fetch, and the merge
  
@@ -30,8 +32,6 @@ Or use `git commit -m "<message>"`
 - Don't end with a `.`
 
 For more advice, see: https://chris.beams.io/posts/git-commit/
-
-
 
 
 ## What's a branch?
