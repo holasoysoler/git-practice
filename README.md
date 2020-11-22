@@ -1,4 +1,4 @@
-Practice: Practice repository to start learning Git
+Practice: Repository to start learning Git
 ## Commands used
 
 - git init: Create a new git repository
@@ -8,6 +8,7 @@ Practice: Practice repository to start learning Git
 - git config: Set or get configuration
 - git log: Show a history (aka "log") or project commits
 - git checkout: Check out branch (update HEAD and apply changes to working directory)
+- git checkout -b: Create branch, then check it out
 - git remote add <remote> <url>: add a new <remote> at <url>
 - git remote -v: List remote repositories
 - git push -u <remote> <branch>: Push <branch> to <renmote>, and set remote upstream for <branch>
@@ -18,7 +19,7 @@ Practice: Practice repository to start learning Git
  
  ## Commit messages
 
-Default editor is vim (this can be changed)
+ Default editor is vim (this can be changed)
     - `i` to enter *instert* mode
     - Type commit message
     - `Esc` -> `:wq` -> 'Enter' to write message and quit
@@ -30,6 +31,16 @@ Or use `git commit -m "<message>"`
 
 For more advice, see: https://chris.beams.io/posts/git-commit/
 
+
+
+
+## What's a branch?
+
+A branch is a ref(erence) to a commit. When HEAD points to a branch, we say we're "on" that branch. When we make a commit while we're on a branch, the branch is updated to ref(er) to the new commit.
+
+## What's HEAD?
+
+HEAD is a ref(erence) to the "current" branch (or sometimes a commit... more on that later). Git commands like `status`. `log`. and `branch` use HEAD. `git checkout` updates HEAD to ref(er) to a different branch.
 
 ## Git tutorial
 
