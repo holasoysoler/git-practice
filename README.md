@@ -38,6 +38,8 @@ For more training regarding Git usage, see: https://learngitbranching.js.org/
 
 Merging means to bring changes from one branch into another
 
+- A fast-forward merge happens when the target branch was branched from the current one, and there are no new changes to the current branch since then.
+
 ## What's a remote?
 
 A remote repo is one hosted somwwhere other than our local machine. We can add remotes with `git remote add` and set up *tracking branches* to track differences between our local and remote repos.
