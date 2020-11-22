@@ -11,6 +11,7 @@
 - git remote -v: List remote repos
 - git push -u <remote> <branch>: Push <branch> to <renmote>, and set remote upstream for <branch>
 - git fetch: Fetch changes from remote repo
+- git pull: Fetch, and the merge
 
 ## Commit messages
 
@@ -30,3 +31,9 @@ For more advice, see: https://chris.beams.io/posts/git-commit/
 ## Git tutorial
 
 For more training regarding Git usage, see: https://learngitbranching.js.org/
+
+## What's a remote?
+
+A remote repo is one hosted somwwhere other than our local machine. We can add remotes with `git remote add` and set up *tracking branches* to track differences between our local and remote repos.
+
+We push to remote with `git push` and fetch them with `git fetch`. We can also fetch an merge in one set with `git pull`.
