@@ -10,8 +10,10 @@
 - git remote add <remote> <url>: add a new <remote> at <url>
 - git remote -v: List remote repos
 - git push -u <remote> <branch>: Push <branch> to <renmote>, and set remote upstream for <branch>
+- git merge: Merge changes from different branches
 - git fetch: Fetch changes from remote repo
 - git pull: Fetch, and the merge
+ 
 
 ## Commit messages
 
